@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-  
+
 <!-- Mirrored from lmpixels.com/demo/breezycv/darkfw/1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Feb 2022 23:07:11 GMT -->
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>BreezyCV - Resume / CV / vCard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
@@ -13,22 +13,22 @@
     <link rel="shortcut icon" href="favicon.ico">
 
 
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('data/css/reset.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('data/css/bootstrap-grid.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('data/css/animations.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('data/css/perfect-scrollbar.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('data/css/owl.carousel.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('data/css/magnific-popup.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('data/css/main.css')}}" type="text/css">
 
-    <script src="js/modernizr.custom.js"></script>
+    <script src="{{asset('data/js/modernizr.custom.js')}}"></script>
   </head>
 
   <body>
     <!-- Animated Background -->
     <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
     <!-- /Animated Background -->
-
+{{-- 
     <!-- Loading animation -->
     <div class="preloader">
       <div class="preloader-animation">
@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-    <!-- /Loading animation -->
+    <!-- /Loading animation -->  --}}
 
     <div class="page">
       <div class="page-content">
@@ -44,7 +44,7 @@
           <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content">
               <div class="header-photo">
-                <img src="img/gy.jpg" alt="Alex Smith">
+                <img src="{{asset('data/img/gy.jpg')}}" alt="Alex Smith">
               </div>
               <div class="header-titles">
                 <h2>Aleke Joshua</h2>
@@ -96,7 +96,7 @@
                 <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                
+
               </ul>
             </div>
 
@@ -131,15 +131,15 @@
                     <div class="row">
                       <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="title-block">
-                          
+
                           <h2>Aleke Joshua</h2>
 
-                          <img src="img/Frame 13.png" alt="Alex Smith">
-                          <div class="owl-carousel text-rotation">                                    
+                          <img src="{{asset('data/img/Frame.png')}}" alt="Alex Smith">
+                          <div class="owl-carousel text-rotation">
                             <div class="item">
                               <div class="sp-subtitle">Freelance UI UX Designer</div>
                             </div>
-                            
+
                             <div class="item">
                               <div class="sp-subtitle">Freelance Product Designer</div>
                             </div>
@@ -277,7 +277,7 @@
                         <!-- Testimonial 1 -->
                         <div class="testimonial">
                           <div class="img">
-                            <img src="img/testimonials/testimonial-1.jpg" alt="Alex Smith">
+                            <img src="{{asset('data/img/testimonials/testimonial-1.jpg')}}" alt="Alex Smith">
                           </div>
                           <div class="text">
                             <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
@@ -296,7 +296,7 @@
                         <!-- Testimonial 2 -->
                         <div class="testimonial">
                           <div class="img">
-                            <img src="img/testimonials/testimonial-2.jpg" alt="Alex Smith">
+                            <img src="{{asset('data/img/testimonials/testimonial-2.jpg')}}" alt="Alex Smith">
                           </div>
                           <div class="text">
                             <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
@@ -315,7 +315,7 @@
                         <!-- Testimonial 3 -->
                         <div class="testimonial">
                           <div class="img">
-                            <img src="img/testimonials/testimonial-3.jpg" alt="Alex Smith">
+                            <img src="{{asset('data/img/testimonials/testimonial-3.jpg')}}" alt="Alex Smith">
                           </div>
                           <div class="text">
                             <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
@@ -349,49 +349,49 @@
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
                       <div class="clients owl-carousel">
-                        
+
                         <div class="client-block">
                           <a href="#" target="_blank" title="Logo">
-                            <img src="img/clients/client-1.png" alt="Logo">
+                            <img src="{{asset('data/img/clients/client-1.png')}}" alt="Logo">
                           </a>
                         </div>
 
                         <div class="client-block">
                           <a href="#" target="_blank" title="Logo">
-                            <img src="img/clients/client-2.png" alt="Logo">
+                            <img src="{{asset('data/img/clients/client-2.png')}}" alt="Logo">
                           </a>
                         </div>
 
                         <div class="client-block">
                           <a href="#" target="_blank" title="Logo">
-                            <img src="img/clients/client-3.png" alt="Logo">
+                            <img src="{{asset('data/img/clients/client-3.png')}}" alt="Logo">
                           </a>
                         </div>
 
                         <div class="client-block">
                           <a href="#" target="_blank" title="Logo">
-                            <img src="img/clients/client-4.png" alt="Logo">
+                            <img src="{{asset('data/img/clients/client-4.png')}}" alt="Logo">
                           </a>
                         </div>
 
                         <div class="client-block">
                           <a href="#" target="_blank" title="Logo">
-                            <img src="img/clients/client-5.png" alt="Logo">
+                            <img src="{{asset('data/img/clients/client-5.png')}}" alt="Logo">
                           </a>
                         </div>
 
                         <div class="client-block">
                           <a href="#" target="_blank" title="Logo">
-                            <img src="img/clients/client-6.png" alt="Logo">
+                            <img src="{{asset('data/img/clients/client-6.png')}}" alt="Logo">
                           </a>
                         </div>
 
                         <div class="client-block">
                           <a href="#" target="_blank" title="Logo">
-                            <img src="img/clients/client-7.png" alt="Logo">
+                            <img src="{{asset('data/img/clients/client-7.png')}}" alt="Logo">
                           </a>
                         </div>
-  
+
                       </div>
                     </div>
                   </div>
@@ -412,18 +412,18 @@
                   <div class="row">
                     <div class=" col-xs-12 col-sm-12 ">
                       <div class="fw-pricing clearfix row">
-                        
+
                         <div class="fw-package-wrap col-md-6 ">
                           <div class="fw-package">
                             <div class="fw-heading-row">
                               <span>Silver</span>
                             </div>
-                            
+
                             <div class="fw-pricing-row">
                               <span>$64</span>
                               <small>per month</small>
                             </div>
-                            
+
                             <div class="fw-button-row">
                               <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
                             </div>
@@ -433,13 +433,13 @@
                             <div class="fw-default-row">Morbi eu sagittis</div>
                           </div>
                         </div>
-     
+
                         <div class="fw-package-wrap col-md-6 highlight-col ">
                           <div class="fw-package">
                             <div class="fw-heading-row">
                               <span>Gold</span>
                             </div>
-                            
+
                             <div class="fw-pricing-row">
                               <span>$128</span>
                               <small>per month</small>
@@ -448,7 +448,7 @@
                             <div class="fw-button-row">
                               <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
                             </div>
-                            
+
                             <div class="fw-default-row">Lorem ipsum dolor</div>
                             <div class="fw-default-row">Pellentesque scelerisque</div>
                             <div class="fw-default-row">Morbi eu sagittis</div>
@@ -522,7 +522,7 @@
                       <div class="block-title">
                         <h3>Education</h3>
                       </div>
-                      
+
                       <div class="timeline timeline-second-style clearfix">
                         <div class="timeline-item clearfix">
                           <div class="left-part">
@@ -579,7 +579,7 @@
                             <p>As a senior ui ux designer @ Techies Africa have help create a  beautiful and different design @ Techies Africa... </p>
                           </div>
                         </div>
-                        
+
                         <div class="timeline-item clearfix">
                           <div class="left-part">
                             <h5 class="item-period">2020 - Current</h5>
@@ -612,7 +612,7 @@
                           <div class="skill-percentage"></div>
                         </div>
                         <!-- End of Skill 1 -->
-                        
+
                         <!-- Skill 2 -->
                         <div class="skill clearfix">
                           <h4>UX Design</h4>
@@ -622,7 +622,7 @@
                           <div class="skill-percentage"></div>
                         </div>
                         <!-- End of Skill 2 -->
-                        
+
                         <!-- Skill 3 -->
                         <div class="skill clearfix">
                           <h4>Web Design</h4>
@@ -632,7 +632,7 @@
                           <div class="skill-percentage"></div>
                         </div>
                         <!-- End of Skill 3 -->
-                        
+
                         <!-- Skill 4 -->
                         <div class="skill clearfix">
                           <h4>UI UX Design</h4>
@@ -673,7 +673,7 @@
                           <div class="skill-percentage"></div>
                         </div>
                         <!-- End of Skill 6 -->
-                        
+
                         <!-- Skill 7 -->
                         <div class="skill clearfix">
                           <h4>Corel Draw</h4>
@@ -683,7 +683,7 @@
                           <div class="skill-percentage"></div>
                         </div>
                         <!-- End of Skill 7 -->
-                        
+
                         <!-- Skill 8 -->
                         <div class="skill clearfix">
                           <h4>Adobe PS</h4>
@@ -739,7 +739,7 @@
                       </div>
                     </div>
                   </div>
-                  
+
                   <div class="row">
                     <!-- Certificate 1 -->
                     <div class="col-xs-12 col-sm-6">
@@ -747,7 +747,7 @@
                         <div class="certi-logo">
                           <img src="img/clients/client-1.png" alt="logo">
                         </div>
-                        
+
                         <div class="certi-content">
                           <div class="certi-title">
                             <h4>Psyhology of Intertnation Design</h4>
@@ -772,7 +772,7 @@
                         <div class="certi-logo">
                           <img src="img/clients/client-1.png" alt="logo">
                         </div>
-                        
+
                         <div class="certi-content">
                           <div class="certi-title">
                             <h4>Psyhology of Intertnation Design</h4>
@@ -833,10 +833,10 @@
 
                         <!-- Portfolio Grid -->
                         <div class="portfolio-grid three-columns">
-                          
+
                           <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                             <div class="portfolio-item-img">
-                              <img src="img/portfolio/1.jpg" alt="SoundCloud Audio" title="" />
+                              <img src="{{asset('data/img/portfolio/1.jpg')}}" alt="SoundCloud Audio" title="" />
                               <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
                             </div>
 
@@ -847,7 +847,7 @@
 
                           <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                             <div class="portfolio-item-img">
-                              <img src="img/portfolio/2.jpg" alt="Media Project 2" title="" />
+                              <img src="{{asset('data/img/portfolio/2.jpg')}}" alt="Media Project 2" title="" />
                               <a href="portfolio-1.html" class="ajax-page-load"></a>
                             </div>
 
@@ -858,7 +858,7 @@
 
                           <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
                             <div class="portfolio-item-img">
-                              <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title="" />
+                              <img src="{{asset('data/img/portfolio/3.jpg')}}" alt="Vimeo Video 1" title="" />
                               <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
                             </div>
 
@@ -869,7 +869,7 @@
 
                           <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                             <div class="portfolio-item-img">
-                              <img src="img/portfolio/4.jpg" alt="Media Project 1" title="" />
+                              <img src="{{asset('data/img/portfolio/4.jpg')}}" alt="Media Project 1" title="" />
                               <a href="portfolio-1.html" class="ajax-page-load"></a>
                             </div>
 
@@ -880,7 +880,7 @@
 
                           <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
                             <div class="portfolio-item-img">
-                              <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title="" />
+                              <img src="{{asset('data/img/portfolio/5.jpg')}}" alt="Mockup Design 1" title="" />
                               <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a>
                             </div>
 
@@ -891,7 +891,7 @@
 
                           <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
                             <div class="portfolio-item-img">
-                              <img src="img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
+                              <img src="{{asset('data/img/portfolio/6.jpg')}}" alt="YouTube Video 1" title="" />
                               <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
                             </div>
 
@@ -918,7 +918,7 @@
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
                       <div class="blog-masonry two-columns clearfix">
-                        
+
                         <!-- Blog Post 1 -->
                         <div class="item post-1">
                           <div class="blog-card">
@@ -927,7 +927,7 @@
                                 <a href="#" title="View all posts in Design">Design</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="img/blog/blog_post_1.jpg" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                <img src="{{asset('data/img/blog/blog_post_1.jpg')}}" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -949,7 +949,7 @@
                                 <a href="#" title="View all posts in UI">UI</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="img/blog/blog_post_2.jpg" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                                <img src="{{asset('data/img/blog/blog_post_2.jpg')}}" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -971,7 +971,7 @@
                                 <a href="#" title="View all posts in Design">Design</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="img/blog/blog_post_3.jpg" class="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title="" />
+                                <img src="{{asset('data/img/blog/blog_post_3.jpg')}}" class="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -993,7 +993,7 @@
                                 <a href="#" title="View all posts in E-Commerce">UI</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="img/blog/blog_post_4.jpg" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
+                                <img src="{{asset('data/img/blog/blog_post_4.jpg')}}" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -1108,7 +1108,7 @@
                           </div>
 
                           <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
-      
+
                           <input type="submit" class="button btn-send" value="Send message">
                         </div>
                       </form>
@@ -1126,20 +1126,20 @@
     </div>
 
     <script data-cfasync="false" src="../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/animating.js"></script>
+    <script src="{{asset('data/js/modernizr.custom.js')}}"></script>
+    <script src="{{asset('data/js/animating.js')}}"></script>
 
-    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="{{asset('data/js/imagesloaded.pkgd.min.js')}}"></script>
     <script src='../../../../../www.google.com/recaptcha/api.js'></script>
 
-    <script src='js/perfect-scrollbar.min.js'></script>
-    <script src='js/jquery.shuffle.min.js'></script>
-    <script src='js/masonry.pkgd.min.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src='{{asset('data/js/perfect-scrollbar.min.js')}}'></script>
+    <script src='{{asset('data/js/jquery.shuffle.min.js')}}'></script>
+    <script src='{{asset('data/js/masonry.pkgd.min.js')}}'></script>
+    <script src='{{asset('data/js/owl.carousel.min.js')}}'></script>
+    <script src="{{asset('data/js/jquery.magnific-popup.min.js')}}"></script>
 
-    <script src="js/validator.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('data/js/validator.js')}}"></script>
+    <script src="{{asset('data/js/main.js')}}"></script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e2c59259f807437","version":"2021.12.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}' crossorigin="anonymous"></script>
 </body>
 
