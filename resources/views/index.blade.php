@@ -92,9 +92,11 @@
 
             <div class="social-links">
               <ul>
-                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/joshua-aleke-1498b012a"><i class="fab fa-linkedin-in"></a></i></li>
+                <li><a href="https://www.facebook.com/mrjosh.believe"><i class="fab fa-facebook-f"></a></i></li>
+                <li><a href="https://twitter.com/mrjosh9820?t=08jBkhq-4G_3dABN6EEV4g&s=09"><i class="fab fa-twitter"></a></i></li>
+                <li><a href="https://www.behance.net/joshuaalek6508"><i class="fab fa-behance"></a></i></li>
+                <li><a href="https://www.instagram.com/simplyaleke"><i class="fab fa-instagram"></a></i></li>
 
               </ul>
             </div>
@@ -133,7 +135,7 @@
 
                           <h2>Aleke Joshua</h2>
 
-                          <img src="{{asset('data/img/Frame.png')}}" alt="Alex Smith">
+                          <img src="{{asset('data/img/gy.jpg')}}" alt="Alex Smith">
                           <div class="owl-carousel text-rotation">
                             <div class="item">
                               <div class="sp-subtitle">Freelance UI UX Designer</div>
@@ -161,7 +163,7 @@
                   <!-- Personal Information -->
                   <div class="row">
                     <div class="col-xs-12 col-sm-7">
-                      <p>I am Aleke Joshua a ui uux designer based in Abakaliki, Ebonyi state... Joshua is currently a final year Biology student of Ebonyi state university... Joshua has over 7 years Experience as a graphics designer and over 5 years as a Product Designer...  </p>
+                      <p>I am Aleke Joshua UI/UX designer based in Ibeju-Lekki, Lagos state... Joshua is currently a final year Biology student of Ebonyi state university..<br> Has over 7 years Experience as a graphics designer and over 2 years as a UI/UX Designer...  </p>
                     </div>
 
                     <div class="col-xs-12 col-sm-5">
@@ -174,22 +176,22 @@
 
                           <li>
                             <span class="title">Residence</span>
-                            <span class="value">Abakaliki</span>
+                            <span class="value">Lagos</span>
                           </li>
 
                           <li>
                             <span class="title">Address</span>
-                            <span class="value">No.25 Udensi Street, Abakaliki, Ebonyi State Nigeria.</span>
+                            <span class="value">No.15 Bankole Street, Ibeju-Lekki, Lagos State Nigeria.</span>
                           </li>
 
                           <li>
                             <span class="title">e-mail</span>
-                            <span class="value"><a href="mailto:emmanuelgodwin558@gmail.com">emmanuelgodwin558@gmail.com</a></a></span>
+                            <span class="value"><a href="mailto:joshuaaleke0@gmail.com">joshuaaleke0@gmail.com</a></a></span>
                           </li>
 
                           <li>
                             <span class="title">Phone</span>
-                            <span class="value">+2349059565389</span>
+                            <span class="value">+2347011262311</span>
                           </li>
                         </ul>
                       </div>
@@ -226,7 +228,7 @@
                               <i class="lnr lnr-laptop-phone"></i>
                             </div><div class="ci-text">
                               <h4>UI UX Design</h4>
-                              <p>I help create and design a beautiful UI UX design for products..</p>
+                              <p>I help create and design a beautiful UI for products..</p>
                             </div>
                           </div>
                         </div>
@@ -242,7 +244,7 @@
                             </div>
                             <div class="ci-text">
                               <h4>Teacher</h4>
-                              <p>I train and euip newbies in tech on desiging...</p>
+                              <p>I train and coach newbies in tech on desiging...</p>
                             </div>
                           </div>
                           <div class="info-block-w-icon">
@@ -478,7 +480,7 @@
                       <div class="fun-fact gray-default">
                         <i class="lnr lnr-heart"></i>
                         <h4>Happy Clients</h4>
-                        <span class="fun-fact-block-value">578</span>
+                        <span class="fun-fact-block-value">98</span>
                         <span class="fun-fact-block-text"></span>
                       </div>
                     </div>
@@ -496,7 +498,7 @@
                       <div class="fun-fact gray-default">
                         <i class="lnr lnr-star"></i>
                         <h4>Awards Won</h4>
-                        <span class="fun-fact-block-value">15</span>
+                        <span class="fun-fact-block-value">1</span>
                         <span class="fun-fact-block-text"></span>
                       </div>
                     </div>
@@ -525,24 +527,24 @@
                       <div class="timeline timeline-second-style clearfix">
                         <div class="timeline-item clearfix">
                           <div class="left-part">
-                            <h5 class="item-period">2014</h5>
-                            <span class="item-company">Google course</span>
+                            <h5 class="item-period">2021</h5>
+                            <span class="item-company">Coursera</span>
                           </div>
                           <div class="divider"></div>
                           <div class="right-part">
-                            <h4 class="item-title">Graphic Design</h4>
+                            <h4 class="item-title">UX Design</h4>
                             <p></p>
                           </div>
                         </div>
 
                         <div class="timeline-item clearfix">
                           <div class="left-part">
-                            <h5 class="item-period">2015</h5>
-                            <span class="item-company">Google Certificate</span>
+                            <h5 class="item-period">2018-2022</h5>
+                            <span class="item-company">Computer Education</span>
                           </div>
                           <div class="divider"></div>
                           <div class="right-part">
-                            <h4 class="item-title">UI UX Design</h4>
+                            <h4 class="item-title">Bsc Computer</h4>
                             <p></p>
                           </div>
                         </div>
@@ -557,37 +559,37 @@
                       <div class="timeline timeline-second-style clearfix">
                         <div class="timeline-item clearfix">
                           <div class="left-part">
-                            <h5 class="item-period">2015 - Current</h5>
-                            <span class="item-company">Value Plus</span>
+                            <h5 class="item-period">2016 - 2017</h5>
+                            <span class="item-company">JF cyber Ventures</span>
                           </div>
                           <div class="divider"></div>
                           <div class="right-part">
                             <h4 class="item-title">Lead Graphics Designer</h4>
-                            <p>I lead a group of team @ Value Plus to bring out a beautiful Logo Design...</p>
+                            <p>I lead a group of team @ JF cyber Ventures. We focused on branding identity design for client...</p>
                           </div>
                         </div>
 
                         <div class="timeline-item clearfix">
                           <div class="left-part">
                             <h5 class="item-period">2017 - Current</h5>
-                            <span class="item-company">Techies Africa</span>
+                            <span class="item-company">Value Plus Technology</span>
                           </div>
                           <div class="divider"></div>
                           <div class="right-part">
-                            <h4 class="item-title">Senior Ui/Ux Designer</h4>
-                            <p>As a senior ui ux designer @ Techies Africa have help create a  beautiful and different design @ Techies Africa... </p>
+                            <h4 class="item-title">Senior UI and Graphics Designer</h4>
+                            <p>As a senior UI Graphics designer @ Value Plus Technologies. We designed various product for Companies and Firms Including Landing pages, Web app interfaces... </p>
                           </div>
                         </div>
 
                         <div class="timeline-item clearfix">
                           <div class="left-part">
-                            <h5 class="item-period">2020 - Current</h5>
-                            <span class="item-company">Emmy-Tech</span>
+                            <h5 class="item-period">2021 - Current</h5>
+                            <span class="item-company">Techies Africa</span>
                           </div>
                           <div class="divider"></div>
                           <div class="right-part">
-                            <h4 class="item-title">Senior Ui/Ux Designer</h4>
-                            <p>As a product Designer, I help create UI UX Designs of different product @ Emmy-Tech...</p>
+                            <h4 class="item-title">Senior Product Designer</h4>
+                            <p>Lead a group of design team and help to set product directions. We designed app interfaces for BelleFest, Teben Educational app, Lead the planning and structuring of most app in my Team...</p>
                           </div>
                         </div>
                       </div>
@@ -624,7 +626,7 @@
 
                         <!-- Skill 3 -->
                         <div class="skill clearfix">
-                          <h4>Web Design</h4>
+                          <h4>Logo Design</h4>
                           <div class="skill-value">80%</div>
                         </div>
                         <div class="skill-container skill-3">
@@ -634,7 +636,7 @@
 
                         <!-- Skill 4 -->
                         <div class="skill clearfix">
-                          <h4>UI UX Design</h4>
+                          <h4>UI Design</h4>
                           <div class="skill-value">90%</div>
                         </div>
                         <div class="skill-container skill-4">
@@ -656,7 +658,7 @@
                         <!-- Skill 5 -->
                         <div class="skill clearfix">
                           <h4>Adobe Illustrator</h4>
-                          <div class="skill-value">95%</div>
+                          <div class="skill-value">85%</div>
                         </div>
                         <div class="skill-container skill-5">
                           <div class="skill-percentage"></div>
@@ -666,7 +668,7 @@
                         <!-- Skill 6 -->
                         <div class="skill clearfix">
                           <h4>Adobe XD</h4>
-                          <div class="skill-value">85%</div>
+                          <div class="skill-value">70%</div>
                         </div>
                         <div class="skill-container skill-6">
                           <div class="skill-percentage"></div>
@@ -676,7 +678,7 @@
                         <!-- Skill 7 -->
                         <div class="skill clearfix">
                           <h4>Corel Draw</h4>
-                          <div class="skill-value">100%</div>
+                          <div class="skill-value">80%</div>
                         </div>
                         <div class="skill-container skill-7">
                           <div class="skill-percentage"></div>
@@ -686,7 +688,7 @@
                         <!-- Skill 8 -->
                         <div class="skill clearfix">
                           <h4>Adobe PS</h4>
-                          <div class="skill-value">75%</div>
+                          <div class="skill-value">50%</div>
                         </div>
                         <div class="skill-container skill-8">
                           <div class="skill-percentage"></div>
@@ -744,19 +746,19 @@
                     <div class="col-xs-12 col-sm-6">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
-                          <img src="img/clients/client-1.png" alt="logo">
+                          <img src="{{asset('data/img/clients/client-1.png')}}" alt="logo">
                         </div>
 
                         <div class="certi-content">
                           <div class="certi-title">
                             <h4>Psyhology of Intertnation Design</h4>
                           </div>
-                          <div class="certi-id">
+                          {{-- <div class="certi-id">
                             <span>Membership ID: XXXX</span>
                           </div>
                           <div class="certi-date">
                             <span>19 April 2018</span>
-                          </div>
+                          </div> --}}
                           <div class="certi-company">
                             <span></span>
                           </div>
@@ -769,18 +771,18 @@
                     <div class="col-xs-12 col-sm-6">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
-                          <img src="img/clients/client-1.png" alt="logo">
+                          <img src="{{asset('data/img/clients/client-1.png')}}" alt="logo">
                         </div>
 
                         <div class="certi-content">
                           <div class="certi-title">
-                            <h4>Psyhology of Intertnation Design</h4>
+                            <h4>Google UX Design Pro</h4>
                           </div>
-                          <div class="certi-id">
+                          {{-- <div class="certi-id">
                             <span>Membership ID: XXXX</span>
-                          </div>
+                          </div> --}}
                           <div class="certi-date">
-                            <span>19 April 2018</span>
+                            <span>3 Jan 2022</span>
                           </div>
                           <div class="certi-company">
                             <span></span>
@@ -1027,21 +1029,21 @@
                     <div class="col-xs-12 col-sm-4">
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-map-marker"></i>
-                        <h4>Abakaliki</h4>
+                        <h4>Lagos</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                       </div>
 
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-phone-handset"></i>
-                        <h4>+2349059565389</h4>
+                        <h4>+2347011262311</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                       </div>
 
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-envelope"></i>
-                        <h4><a href="mailto:emmanuelgodwin558@gmail.com">emmanuelgodwin558@gmail.com</a></a></h4>
+                        <h4><a href="mailto:joshuaaleke0@gmail.com">joshuaaleke0@gmail.com</a></a></h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                       </div>
