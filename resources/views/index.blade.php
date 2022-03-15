@@ -27,7 +27,7 @@
     <!-- Animated Background -->
     <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
     <!-- /Animated Background -->
-{{--
+
     <!-- Loading animation -->
     <div class="preloader">
       <div class="preloader-animation">
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-    <!-- /Loading animation -->  --}}
+    <!-- /Loading animation -->
 
     <div class="page">
       <div class="page-content">
@@ -148,6 +148,22 @@
                         </div>
                       </div>
                     </div>
+
+
+                    <div class="social-links">
+                        <ul>
+                          <li><a href="https://www.linkedin.com/in/joshua-aleke-1498b012a"><i class="fab fa-linkedin-in"></a></i></li>
+                          <li><a href="https://www.facebook.com/mrjosh.believe"><i class="fab fa-facebook-f"></a></i></li>
+                          <li><a href="https://twitter.com/mrjosh9820?t=08jBkhq-4G_3dABN6EEV4g&s=09"><i class="fab fa-twitter"></a></i></li>
+                          <li><a href="https://www.behance.net/joshuaalek6508"><i class="fab fa-behance"></a></i></li>
+                          <li><a href="https://www.instagram.com/simplyaleke"><i class="fab fa-instagram"></a></i></li>
+
+                        </ul>
+                      </div>
+
+
+
+
 
                 </div>
               </section>
@@ -1061,7 +1077,6 @@
 
                     <!-- Contact Form -->
 
-
                @if(session('success'))
                <div class="alert alert-success">
                  {{ session('success') }}
@@ -1072,7 +1087,7 @@
                     <div class="col-xs-12 col-sm-8">
                       <div id="map" class="map">
                           <div class="lmpixels-map">
-                            	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=San%20Francisco%2C%20S601%20Townsend%20Street%2C%20California%2C%20USA&amp;amp;t=m&amp;amp;z=16&amp;amp;output=embed&amp;amp;iwloc=near&amp;output=embed"></iframe>
+                            	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=San%20Nigeria%2C%20S601%20Townsend%20Street%2C%20Lagos%2C%20USA&amp;amp;t=m&amp;amp;z=16&amp;amp;output=embed&amp;amp;iwloc=near&amp;output=embed"></iframe>
                             </div>
                       </div>
                       <div class="block-title">
@@ -1126,13 +1141,11 @@
 
                           </div>
 
-                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
+                          {{-- <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div> --}}
 
-                          {{-- <span>Send</span> --}}
-
-                          <input type="submit" class="button btn-send" value="Send message">
+                          <button type="submit" class="button btn-send" value="Send message"></button>
                         </div>
-                      </>
+                        </form>
                     </div>
                     <!-- End of Contact Form -->
                   </div>
