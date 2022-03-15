@@ -22,3 +22,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+
+Route::get("/index", [HomeController::class, "index"])->name("index");
+Route::post("/contact/store", [ContactMeController::class, "store"])->name("contact.store");
+
