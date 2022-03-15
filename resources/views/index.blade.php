@@ -1143,7 +1143,7 @@
 
                           {{-- <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div> --}}
 
-                          <button type="submit" class="button btn-send" value="Send message"></button>
+                          <button type="submit" class="button btn-send" value="Send message">Send message</button>
                         </div>
                         </form>
                     </div>
