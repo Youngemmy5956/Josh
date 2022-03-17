@@ -158,11 +158,10 @@
                           <li><a href="https://www.behance.net/joshuaalek6508"><i class="fab fa-behance"></a></i></li>
                           <li><a href="https://www.instagram.com/simplyaleke"><i class="fab fa-instagram"></a></i></li>
 
-                        </ul>
+                        </ul>  <br>
                       </div>
 
-
-
+                       <div class="copyrights">Aleke Joshua © 2022 All rights reserved....  Built by Young-Emmy.</div>
 
 
                 </div>
