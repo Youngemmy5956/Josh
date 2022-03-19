@@ -103,7 +103,7 @@
                 </div>
 
                 <div class="header-buttons">
-                    <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+                    <a href="https://wa.me/+2347011262311" target="_blank" class="btn btn-primary">Hire Me</a>
                 </div>
 
                 <div class="copyrights">© 2022 All rights reserved.</div>
