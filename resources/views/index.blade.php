@@ -830,7 +830,7 @@
                                     <div class="portfolio-content">
 
                                         <ul class="portfolio-filters">
-                                            <li class="active">
+                                            {{-- <li class="active">
                                                 <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
                                             </li>
                                             <li>
@@ -847,7 +847,7 @@
                                             </li>
                                             <li>
                                                 <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
-                                            </li>
+                                            </li> --}}
                                         </ul>
 
                                         <!-- Portfolio Grid -->
@@ -855,68 +855,68 @@
 
                                             <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/1.jpg')}}" alt="SoundCloud Audio" title="" />
-                                                    <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
+                                                    <img src="{{asset('data/img/portfolio/Cover.png')}}" alt="Personal Portfolio UI" title="" />
+                                                    <a href="https://www.behance.net/joshuaalek6508"  title="Personal Portfolio UI"></a>
                                                 </div>
 
                                                 <i class="fa fa-volume-up"></i>
-                                                <h4 class="name">SoundCloud Audio</h4>
-                                                <span class="category">SoundCloud</span>
+                                                <h4 class="name">Personal Portfolio UI</h4>
+                                                <span class="category">Personal Portfolio UI</span>
                                             </figure>
 
                                             <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/2.jpg')}}" alt="Media Project 2" title="" />
-                                                    <a href="portfolio-1.html" class="ajax-page-load"></a>
+                                                    <img src="{{asset('data/img/portfolio/Thumbnailrt.png')}}" alt="Crpto Mining site" title="" />
+                                                    <a href="https://www.behance.net/joshuaalek6508"  title="Crpto Mining site"></a>
                                                 </div>
 
                                                 <i class="far fa-file-alt"></i>
-                                                <h4 class="name">Detailed Project 2</h4>
-                                                <span class="category">Detailed</span>
+                                                <h4 class="name">Crpto Mining site</h4>
+                                                <span class="category">Crpto Mining site</span>
                                             </figure>
 
                                             <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/3.jpg')}}" alt="Vimeo Video 1" title="" />
-                                                    <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
+                                                    <img src="{{asset('data/img/portfolio/Thumbnail.png')}}" alt="Vimeo Video 1" title="" />
+                                                    <a href="https://www.behance.net/gallery/139810513/Shopper-online-store-case-study" title="Shopper E-commerce UI"></a>
                                                 </div>
 
                                                 <i class="fas fa-video"></i>
-                                                <h4 class="name">Vimeo Video 1</h4>
-                                                <span class="category">Vimeo Videos</span>
+                                                <h4 class="name">Shopper E-commerce UI</h4>
+                                                <span class="category">Shopper E-commerce UI</span>
                                             </figure>
 
                                             <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/4.jpg')}}" alt="Media Project 1" title="" />
-                                                    <a href="portfolio-1.html" class="ajax-page-load"></a>
+                                                    <img src="{{asset('data/img/portfolio/lynkas.png')}}" alt="Lyncas Community Visual Brand" title="" />
+                                                    <a href="https://www.behance.net/gallery/139314343/Lynkas-Community"></a>
                                                 </div>
 
                                                 <i class="far fa-file-alt"></i>
-                                                <h4 class="name">Detailed Project 1</h4>
-                                                <span class="category">Detailed</span>
+                                                <h4 class="name">Lyncas Community Visual Brand</h4>
+                                                <span class="category">Lyncas Community Visual Brand</span>
                                             </figure>
 
                                             <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/5.jpg')}}" alt="Mockup Design 1" title="" />
-                                                    <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a>
+                                                    <img src="{{asset('data/img/portfolio/Instagram.png')}}" alt="Educational video App UI" title="" />
+                                                    <a title="Educational video App UI" href="https://www.behance.net/gallery/133162775/Video-App-Project"></a>
                                                 </div>
 
                                                 <i class="far fa-image"></i>
-                                                <h4 class="name">Mockup Design 1</h4>
-                                                <span class="category">Mockups</span>
+                                                <h4 class="name">Educational video App UI</h4>
+                                                <span class="category">Educational video App UI</span>
                                             </figure>
 
                                             <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/6.jpg')}}" alt="YouTube Video 1" title="" />
-                                                    <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
+                                                    <img src="{{asset('data/img/portfolio/Frame.png')}}" alt="YouTube Video 1" title="" />
+                                                    <a href="https://www.behance.net/gallery/138700389/Logo-and-Visual-Identity-for-Techies-Africa" title="Techies Africa Brand Identity"></a>
                                                 </div>
 
                                                 <i class="fas fa-video"></i>
-                                                <h4 class="name">YouTube Video 1</h4>
-                                                <span class="category">YouTube Videos</span>
+                                                <h4 class="name">Techies Africa Brand Identity</h4>
+                                                <span class="category">Techies Africa Brand Identity</span>
                                             </figure>
                                         </div>
                                     </div>
