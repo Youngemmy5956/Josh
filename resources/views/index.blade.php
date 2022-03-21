@@ -973,7 +973,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="post-info">
-                                                    <div class="post-date">2 March 2022</div>
+                                                    <div class="post-date">21 March 2022</div>
                                                     <a href="https://youtu.be/0NLr3-btCUc">
                                                         <h4 class="blog-item-title">Code with Confidence</h4>
                                                     </a>
@@ -987,17 +987,17 @@
                                             <div class="blog-card">
                                                 <div class="media-block">
                                                     <div class="category">
-                                                        <a href="#" title="View all posts in Design">Design</a>
+                                                        <a href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web" title="View all posts in Design">Design</a>
                                                     </div>
-                                                    <a href="blog-post-1.html">
-                                                        <img src="{{asset('data/img/blog/blog_post_3.jpg')}}" class="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title="" />
+                                                    <a href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web">
+                                                        <img src="{{asset('data/img/portfolio/jh.png')}}" alt="Designing the Perfect Feature Comparison Table" title="" />
                                                         <div class="mask"></div>
                                                     </a>
                                                 </div>
                                                 <div class="post-info">
-                                                    <div class="post-date">06 Feb 2020</div>
-                                                    <a href="blog-post-1.html">
-                                                        <h4 class="blog-item-title">Designing the Perfect Feature Comparison Table</h4>
+                                                    <div class="post-date">21 March 2022</div>
+                                                    <a href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web">
+                                                        <h4 class="blog-item-title">UI Design Principles: Guidelines. </h4>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1009,17 +1009,17 @@
                                             <div class="blog-card">
                                                 <div class="media-block">
                                                     <div class="category">
-                                                        <a href="#" title="View all posts in E-Commerce">UI</a>
+                                                        <a href="https://zinghunt.com/ref-invite/C0ZCPORZ" title="View all posts in E-Commerce">Finanace</a>
                                                     </div>
-                                                    <a href="blog-post-1.html">
-                                                        <img src="{{asset('data/img/blog/blog_post_4.jpg')}}" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
+                                                    <a href="https://zinghunt.com/ref-invite/C0ZCPORZ">
+                                                        <img src="{{asset('data/img/portfolio/Sc.png')}}" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
                                                         <div class="mask"></div>
                                                     </a>
                                                 </div>
                                                 <div class="post-info">
-                                                    <div class="post-date">07 Jan 2020</div>
-                                                    <a href="blog-post-1.html">
-                                                        <h4 class="blog-item-title">An Overview of E-Commerce Platforms</h4>
+                                                    <div class="post-date">21 March 2022</div>
+                                                    <a href="https://zinghunt.com/ref-invite/C0ZCPORZ">
+                                                        <h4 class="blog-item-title">Zinghunt-One Platform, Multiple Income Streams.</h4>
                                                     </a>
                                                 </div>
                                             </div>
