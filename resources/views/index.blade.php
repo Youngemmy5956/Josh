@@ -965,17 +965,17 @@
                                             <div class="blog-card">
                                                 <div class="media-block">
                                                     <div class="category">
-                                                        <a href="#" title="View all posts in UI">UI</a>
+                                                        <a href="https://youtu.be/0NLr3-btCUc" title="View all posts in UI">UI</a>
                                                     </div>
-                                                    <a href="blog-post-1.html">
-                                                        <img src="{{asset('data/img/blog/blog_post_2.jpg')}}" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                                                    <a href="https://youtu.be/0NLr3-btCUc">
+                                                        <img src="{{asset('data/img/portfolio/tut.png')}}" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
                                                         <div class="mask"></div>
                                                     </a>
                                                 </div>
                                                 <div class="post-info">
-                                                    <div class="post-date">23 Feb 2020</div>
-                                                    <a href="blog-post-1.html">
-                                                        <h4 class="blog-item-title">Best Practices for Animated Progress Indicators</h4>
+                                                    <div class="post-date">2 March 2022</div>
+                                                    <a href="https://youtu.be/0NLr3-btCUc">
+                                                        <h4 class="blog-item-title">Code with Confidence</h4>
                                                     </a>
                                                 </div>
                                             </div>
