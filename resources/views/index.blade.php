@@ -9,18 +9,19 @@
     <title>BreezyCV - Resume / CV / vCard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="keywords"
+        content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
 
 
-    <link rel="stylesheet" href="{{asset('data/css/reset.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('data/css/bootstrap-grid.min.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('data/css/animations.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('data/css/perfect-scrollbar.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('data/css/owl.carousel.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('data/css/magnific-popup.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('data/css/main.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('data/css/reset.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('data/css/bootstrap-grid.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('data/css/animations.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('data/css/perfect-scrollbar.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('data/css/owl.carousel.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('data/css/magnific-popup.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('data/css/main.css') }}" type="text/css">
 
 </head>
 
@@ -44,7 +45,7 @@
             <header id="site_header" class="header mobile-menu-hide">
                 <div class="header-content">
                     <div class="header-photo">
-                        <img src="{{asset('data/img/gy.jpg')}}" alt="Alex Smith">
+                        <img src="{{ asset('data/img/gy.jpg') }}" alt="Alex Smith">
                     </div>
                     <div class="header-titles">
                         <h2>Aleke Joshua</h2>
@@ -93,9 +94,11 @@
 
                 <div class="social-links">
                     <ul>
-                        <li><a href="https://www.linkedin.com/in/joshua-aleke-1498b012a"><i class="fab fa-linkedin-in"></a></i></li>
+                        <li><a href="https://www.linkedin.com/in/joshua-aleke-1498b012a"><i
+                                    class="fab fa-linkedin-in"></a></i></li>
                         <li><a href="https://www.facebook.com/mrjosh.believe"><i class="fab fa-facebook-f"></a></i></li>
-                        <li><a href="https://twitter.com/mrjosh9820?t=08jBkhq-4G_3dABN6EEV4g&s=09"><i class="fab fa-twitter"></a></i></li>
+                        <li><a href="https://twitter.com/mrjosh9820?t=08jBkhq-4G_3dABN6EEV4g&s=09"><i
+                                    class="fab fa-twitter"></a></i></li>
                         <li><a href="https://www.behance.net/joshuaalek6508"><i class="fab fa-behance"></a></i></li>
                         <li><a href="https://www.instagram.com/simplyaleke"><i class="fab fa-instagram"></a></i></li>
 
@@ -136,7 +139,7 @@
 
                                         <h2>Aleke Joshua</h2>
 
-                                        <img src="{{asset('data/img/gy.jpg')}}" alt="Alex Smith">
+                                        <img src="{{ asset('data/img/gy.jpg') }}" alt="Alex Smith">
                                         <div class="owl-carousel text-rotation">
                                             <div class="item">
                                                 <div class="sp-subtitle">Freelance UI UX Designer</div>
@@ -153,16 +156,22 @@
 
                             <div class="social-links">
                                 <ul>
-                                    <li><a href="https://www.linkedin.com/in/joshua-aleke-1498b012a"><i class="fab fa-linkedin-in"></a></i></li>
-                                    <li><a href="https://www.facebook.com/mrjosh.believe"><i class="fab fa-facebook-f"></a></i></li>
-                                    <li><a href="https://twitter.com/mrjosh9820?t=08jBkhq-4G_3dABN6EEV4g&s=09"><i class="fab fa-twitter"></a></i></li>
-                                    <li><a href="https://www.behance.net/joshuaalek6508"><i class="fab fa-behance"></a></i></li>
-                                    <li><a href="https://www.instagram.com/simplyaleke"><i class="fab fa-instagram"></a></i></li>
+                                    <li><a href="https://www.linkedin.com/in/joshua-aleke-1498b012a"><i
+                                                class="fab fa-linkedin-in"></a></i></li>
+                                    <li><a href="https://www.facebook.com/mrjosh.believe"><i
+                                                class="fab fa-facebook-f"></a></i></li>
+                                    <li><a href="https://twitter.com/mrjosh9820?t=08jBkhq-4G_3dABN6EEV4g&s=09"><i
+                                                class="fab fa-twitter"></a></i></li>
+                                    <li><a href="https://www.behance.net/joshuaalek6508"><i
+                                                class="fab fa-behance"></a></i></li>
+                                    <li><a href="https://www.instagram.com/simplyaleke"><i
+                                                class="fab fa-instagram"></a></i></li>
 
                                 </ul> <br>
                             </div>
 
-                            <div class="copyrights">Aleke Joshua © 2022 All rights reserved.... Built by Young-Emmy.</div>
+                            <div class="copyrights">Aleke Joshua © 2022 All rights reserved.... Built by Young-Emmy.
+                            </div>
 
 
                         </div>
@@ -179,7 +188,10 @@
                             <!-- Personal Information -->
                             <div class="row">
                                 <div class="col-xs-12 col-sm-7">
-                                    <p>I am Aleke Joshua UI/UX designer based in Ibeju-Lekki, Lagos state... Joshua is currently a final year Biology student of Ebonyi state university..<br> Has over 7 years Experience as a graphics designer and over 2 years as a UI/UX Designer... </p>
+                                    <p>I am Aleke Joshua UI/UX designer based in Ibeju-Lekki, Lagos state... Joshua is
+                                        currently a final year Biology student of Ebonyi state university..<br> Has over
+                                        7 years Experience as a graphics designer and over 2 years as a UI/UX
+                                        Designer... </p>
                                 </div>
 
                                 <div class="col-xs-12 col-sm-5">
@@ -197,12 +209,14 @@
 
                                             <li>
                                                 <span class="title">Address</span>
-                                                <span class="value">No.15 Bankole Street, Ibeju-Lekki, Lagos State Nigeria.</span>
+                                                <span class="value">No.15 Bankole Street, Ibeju-Lekki, Lagos
+                                                    State Nigeria.</span>
                                             </li>
 
                                             <li>
                                                 <span class="title">e-mail</span>
-                                                <span class="value"><a href="mailto:joshuaaleke0@gmail.com">joshuaaleke0@gmail.com</a></a></span>
+                                                <span class="value"><a
+                                                        href="mailto:joshuaaleke0@gmail.com">joshuaaleke0@gmail.com</a></a></span>
                                             </li>
 
                                             <li>
@@ -296,10 +310,13 @@
                                         <!-- Testimonial 1 -->
                                         <div class="testimonial">
                                             <div class="img">
-                                                <img src="{{asset('data/img/testimonials/testimonial-1.jpg')}}" alt="Alex Smith">
+                                                <img src="{{ asset('data/img/testimonials/testimonial-1.jpg') }}"
+                                                    alt="Alex Smith">
                                             </div>
                                             <div class="text">
-                                                <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
+                                                <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.
+                                                    Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo
+                                                    id ligula pellentesque, at vehicula dui ultrices.</p>
                                             </div>
 
                                             <div class="author-info">
@@ -315,10 +332,13 @@
                                         <!-- Testimonial 2 -->
                                         <div class="testimonial">
                                             <div class="img">
-                                                <img src="{{asset('data/img/testimonials/testimonial-2.jpg')}}" alt="Alex Smith">
+                                                <img src="{{ asset('data/img/testimonials/testimonial-2.jpg') }}"
+                                                    alt="Alex Smith">
                                             </div>
                                             <div class="text">
-                                                <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
+                                                <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.
+                                                    Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo
+                                                    id ligula pellentesque, at vehicula dui ultrices.</p>
                                             </div>
 
                                             <div class="author-info">
@@ -334,10 +354,13 @@
                                         <!-- Testimonial 3 -->
                                         <div class="testimonial">
                                             <div class="img">
-                                                <img src="{{asset('data/img/testimonials/testimonial-3.jpg')}}" alt="Alex Smith">
+                                                <img src="{{ asset('data/img/testimonials/testimonial-3.jpg') }}"
+                                                    alt="Alex Smith">
                                             </div>
                                             <div class="text">
-                                                <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
+                                                <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.
+                                                    Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo
+                                                    id ligula pellentesque, at vehicula dui ultrices.</p>
                                             </div>
 
                                             <div class="author-info">
@@ -371,43 +394,43 @@
 
                                         <div class="client-block">
                                             <a href="#" target="_blank" title="Logo">
-                                                <img src="{{asset('data/img/clients/client-1.png')}}" alt="Logo">
+                                                <img src="{{ asset('data/img/clients/client-1.png') }}" alt="Logo">
                                             </a>
                                         </div>
 
                                         <div class="client-block">
                                             <a href="#" target="_blank" title="Logo">
-                                                <img src="{{asset('data/img/clients/client-2.png')}}" alt="Logo">
+                                                <img src="{{ asset('data/img/clients/client-2.png') }}" alt="Logo">
                                             </a>
                                         </div>
 
                                         <div class="client-block">
                                             <a href="#" target="_blank" title="Logo">
-                                                <img src="{{asset('data/img/clients/client-3.png')}}" alt="Logo">
+                                                <img src="{{ asset('data/img/clients/client-3.png') }}" alt="Logo">
                                             </a>
                                         </div>
 
                                         <div class="client-block">
                                             <a href="#" target="_blank" title="Logo">
-                                                <img src="{{asset('data/img/clients/client-4.png')}}" alt="Logo">
+                                                <img src="{{ asset('data/img/clients/client-4.png') }}" alt="Logo">
                                             </a>
                                         </div>
 
                                         <div class="client-block">
                                             <a href="#" target="_blank" title="Logo">
-                                                <img src="{{asset('data/img/clients/client-5.png')}}" alt="Logo">
+                                                <img src="{{ asset('data/img/clients/client-5.png') }}" alt="Logo">
                                             </a>
                                         </div>
 
                                         <div class="client-block">
                                             <a href="#" target="_blank" title="Logo">
-                                                <img src="{{asset('data/img/clients/client-6.png')}}" alt="Logo">
+                                                <img src="{{ asset('data/img/clients/client-6.png') }}" alt="Logo">
                                             </a>
                                         </div>
 
                                         <div class="client-block">
                                             <a href="#" target="_blank" title="Logo">
-                                                <img src="{{asset('data/img/clients/client-7.png')}}" alt="Logo">
+                                                <img src="{{ asset('data/img/clients/client-7.png') }}" alt="Logo">
                                             </a>
                                         </div>
 
@@ -583,7 +606,8 @@
                                             <div class="divider"></div>
                                             <div class="right-part">
                                                 <h4 class="item-title">Lead Graphics Designer</h4>
-                                                <p>I lead a group of team @ JF cyber Ventures. We focused on branding identity design for client...</p>
+                                                <p>I lead a group of team @ JF cyber Ventures. We focused on branding
+                                                    identity design for client...</p>
                                             </div>
                                         </div>
 
@@ -595,7 +619,9 @@
                                             <div class="divider"></div>
                                             <div class="right-part">
                                                 <h4 class="item-title">Senior UI and Graphics Designer</h4>
-                                                <p>As a senior UI Graphics designer @ Value Plus Technologies. We designed various product for Companies and Firms Including Landing pages, Web app interfaces... </p>
+                                                <p>As a senior UI Graphics designer @ Value Plus Technologies. We
+                                                    designed various product for Companies and Firms Including Landing
+                                                    pages, Web app interfaces... </p>
                                             </div>
                                         </div>
 
@@ -607,7 +633,9 @@
                                             <div class="divider"></div>
                                             <div class="right-part">
                                                 <h4 class="item-title">Senior Product Designer</h4>
-                                                <p>Lead a group of design team and help to set product directions. We designed app interfaces for BelleFest, Teben Educational app, Lead the planning and structuring of most app in my Team...</p>
+                                                <p>Lead a group of design team and help to set product directions. We
+                                                    designed app interfaces for BelleFest, Teben Educational app, Lead
+                                                    the planning and structuring of most app in my Team...</p>
                                             </div>
                                         </div>
                                     </div>
@@ -764,7 +792,7 @@
                                 <div class="col-xs-12 col-sm-6">
                                     <div class="certificate-item clearfix">
                                         <div class="certi-logo">
-                                            <img src="{{asset('data/img/clients/client-1.png')}}" alt="logo">
+                                            <img src="{{ asset('data/img/clients/client-1.png') }}" alt="logo">
                                         </div>
 
                                         <div class="certi-content">
@@ -789,7 +817,7 @@
                                 <div class="col-xs-12 col-sm-6">
                                     <div class="certificate-item clearfix">
                                         <div class="certi-logo">
-                                            <img src="{{asset('data/img/clients/client-1.png')}}" alt="logo">
+                                            <img src="{{ asset('data/img/clients/client-1.png') }}" alt="logo">
                                         </div>
 
                                         <div class="certi-content">
@@ -853,10 +881,13 @@
                                         <!-- Portfolio Grid -->
                                         <div class="portfolio-grid three-columns">
 
-                                            <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                                            <figure class="item lbaudio"
+                                                data-groups='["category_all", "category_soundcloud"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/Cover.png')}}" alt="Personal Portfolio UI" title="" />
-                                                    <a href="https://www.behance.net/joshuaalek6508"  title="Personal Portfolio UI"></a>
+                                                    <img src="{{ asset('data/img/portfolio/Cover.png') }}"
+                                                        alt="Personal Portfolio UI" title="" />
+                                                    <a href="https://www.behance.net/joshuaalek6508"
+                                                        title="Personal Portfolio UI"></a>
                                                 </div>
 
                                                 <i class="fa fa-volume-up"></i>
@@ -864,10 +895,13 @@
                                                 <span class="category">Personal Portfolio UI</span>
                                             </figure>
 
-                                            <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+                                            <figure class="item standard"
+                                                data-groups='["category_all", "category_detailed"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/Thumbnailrt.png')}}" alt="Crpto Mining site" title="" />
-                                                    <a href="https://www.behance.net/joshuaalek6508"  title="Crpto Mining site"></a>
+                                                    <img src="{{ asset('data/img/portfolio/Thumbnailrt.png') }}"
+                                                        alt="Crpto Mining site" title="" />
+                                                    <a href="https://www.behance.net/joshuaalek6508"
+                                                        title="Crpto Mining site"></a>
                                                 </div>
 
                                                 <i class="far fa-file-alt"></i>
@@ -875,10 +909,13 @@
                                                 <span class="category">Crpto Mining site</span>
                                             </figure>
 
-                                            <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
+                                            <figure class="item lbvideo"
+                                                data-groups='["category_all", "category_vimeo-videos"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/Thumbnail.png')}}" alt="Vimeo Video 1" title="" />
-                                                    <a href="https://www.behance.net/gallery/139810513/Shopper-online-store-case-study" title="Shopper E-commerce UI"></a>
+                                                    <img src="{{ asset('data/img/portfolio/Thumbnail.png') }}"
+                                                        alt="Vimeo Video 1" title="" />
+                                                    <a href="https://www.behance.net/gallery/139810513/Shopper-online-store-case-study"
+                                                        title="Shopper E-commerce UI"></a>
                                                 </div>
 
                                                 <i class="fas fa-video"></i>
@@ -886,10 +923,13 @@
                                                 <span class="category">Shopper E-commerce UI</span>
                                             </figure>
 
-                                            <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+                                            <figure class="item standard"
+                                                data-groups='["category_all", "category_detailed"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/lynkas.png')}}" alt="Lyncas Community Visual Brand" title="" />
-                                                    <a href="https://www.behance.net/gallery/139314343/Lynkas-Community"></a>
+                                                    <img src="{{ asset('data/img/portfolio/lynkas.png') }}"
+                                                        alt="Lyncas Community Visual Brand" title="" />
+                                                    <a
+                                                        href="https://www.behance.net/gallery/139314343/Lynkas-Community"></a>
                                                 </div>
 
                                                 <i class="far fa-file-alt"></i>
@@ -897,10 +937,13 @@
                                                 <span class="category">Lyncas Community Visual Brand</span>
                                             </figure>
 
-                                            <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
+                                            <figure class="item lbimage"
+                                                data-groups='["category_all", "category_mockups"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/Instagram.png')}}" alt="Educational video App UI" title="" />
-                                                    <a title="Educational video App UI" href="https://www.behance.net/gallery/133162775/Video-App-Project"></a>
+                                                    <img src="{{ asset('data/img/portfolio/Instagram.png') }}"
+                                                        alt="Educational video App UI" title="" />
+                                                    <a title="Educational video App UI"
+                                                        href="https://www.behance.net/gallery/133162775/Video-App-Project"></a>
                                                 </div>
 
                                                 <i class="far fa-image"></i>
@@ -908,10 +951,13 @@
                                                 <span class="category">Educational video App UI</span>
                                             </figure>
 
-                                            <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
+                                            <figure class="item lbvideo"
+                                                data-groups='["category_all", "category_youtube-videos"]'>
                                                 <div class="portfolio-item-img">
-                                                    <img src="{{asset('data/img/portfolio/Frame.png')}}" alt="YouTube Video 1" title="" />
-                                                    <a href="https://www.behance.net/gallery/138700389/Logo-and-Visual-Identity-for-Techies-Africa" title="Techies Africa Brand Identity"></a>
+                                                    <img src="{{ asset('data/img/portfolio/Frame.png') }}"
+                                                        alt="YouTube Video 1" title="" />
+                                                    <a href="https://www.behance.net/gallery/138700389/Logo-and-Visual-Identity-for-Techies-Africa"
+                                                        title="Techies Africa Brand Identity"></a>
                                                 </div>
 
                                                 <i class="fas fa-video"></i>
@@ -946,14 +992,17 @@
                                                         <a href="#" title="View all posts in Design">Design</a>
                                                     </div>
                                                     <a href="blog-post-1.html">
-                                                        <img src="{{asset('data/img/blog/blog_post_1.jpg')}}" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                                        <img src="{{ asset('data/img/blog/blog_post_1.jpg') }}"
+                                                            class="size-blog-masonry-image-two-c"
+                                                            alt="Why I Switched to Sketch For UI Design" title="" />
                                                         <div class="mask"></div>
                                                     </a>
                                                 </div>
                                                 <div class="post-info">
                                                     <div class="post-date">05 Mar 2020</div>
                                                     <a href="blog-post-1.html">
-                                                        <h4 class="blog-item-title">Why I Switched to Sketch For UI Design</h4>
+                                                        <h4 class="blog-item-title">Why I Switched to Sketch For UI
+                                                            Design</h4>
                                                     </a>
                                                 </div>
                                             </div>
@@ -965,10 +1014,14 @@
                                             <div class="blog-card">
                                                 <div class="media-block">
                                                     <div class="category">
-                                                        <a href="https://youtu.be/0NLr3-btCUc" title="View all posts in UI">UI</a>
+                                                        <a href="https://youtu.be/0NLr3-btCUc"
+                                                            title="View all posts in UI">UI</a>
                                                     </div>
                                                     <a href="https://youtu.be/0NLr3-btCUc">
-                                                        <img src="{{asset('data/img/portfolio/tut.png')}}" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                                                        <img src="{{ asset('data/img/portfolio/tut.png') }}"
+                                                            class="size-blog-masonry-image-two-c"
+                                                            alt="Best Practices for Animated Progress Indicators"
+                                                            title="" />
                                                         <div class="mask"></div>
                                                     </a>
                                                 </div>
@@ -987,17 +1040,23 @@
                                             <div class="blog-card">
                                                 <div class="media-block">
                                                     <div class="category">
-                                                        <a href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web" title="View all posts in Design">Design</a>
+                                                        <a href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web"
+                                                            title="View all posts in Design">Design</a>
                                                     </div>
-                                                    <a href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web">
-                                                        <img src="{{asset('data/img/portfolio/jh.png')}}" alt="Designing the Perfect Feature Comparison Table" title="" />
+                                                    <a
+                                                        href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web">
+                                                        <img src="{{ asset('data/img/portfolio/jh.png') }}"
+                                                            alt="Designing the Perfect Feature Comparison Table"
+                                                            title="" />
                                                         <div class="mask"></div>
                                                     </a>
                                                 </div>
                                                 <div class="post-info">
                                                     <div class="post-date">21 March 2022</div>
-                                                    <a href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web">
-                                                        <h4 class="blog-item-title">UI Design Principles: Guidelines. </h4>
+                                                    <a
+                                                        href="https://www.linkedin.com/posts/joshua-aleke-1498b012a_design-ui-designers-activity-6911712961082331136-z2zB?utm_source=linkedin_share&utm_medium=member_desktop_web">
+                                                        <h4 class="blog-item-title">UI Design Principles: Guidelines.
+                                                        </h4>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1009,17 +1068,21 @@
                                             <div class="blog-card">
                                                 <div class="media-block">
                                                     <div class="category">
-                                                        <a href="https://zinghunt.com/ref-invite/C0ZCPORZ" title="View all posts in E-Commerce">Finanace</a>
+                                                        <a href="https://zinghunt.com/ref-invite/C0ZCPORZ"
+                                                            title="View all posts in E-Commerce">Finanace</a>
                                                     </div>
                                                     <a href="https://zinghunt.com/ref-invite/C0ZCPORZ">
-                                                        <img src="{{asset('data/img/portfolio/Sc.png')}}" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
+                                                        <img src="{{ asset('data/img/portfolio/Sc.png') }}"
+                                                            class="size-blog-masonry-image-two-c"
+                                                            alt="An Overview of E-Commerce Platforms" title="" />
                                                         <div class="mask"></div>
                                                     </a>
                                                 </div>
                                                 <div class="post-info">
                                                     <div class="post-date">21 March 2022</div>
                                                     <a href="https://zinghunt.com/ref-invite/C0ZCPORZ">
-                                                        <h4 class="blog-item-title">Zinghunt-One Platform, Multiple Income Streams.</h4>
+                                                        <h4 class="blog-item-title">Zinghunt-One Platform, Multiple
+                                                            Income Streams.</h4>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1079,49 +1142,57 @@
 
                                 <!-- Contact Form -->
 
-                                <!-- @if(session('success'))
-                                <div class="alert alert-success">
+                                <!-- @if (session('success'))
+<div class="alert alert-success">
                                     {{ session('success') }}
                                 </div>
-                                @endif -->
+@endif -->
 
 
                                 <div class="col-xs-12 col-sm-8">
                                     <div id="map" class="map">
                                         <div class="lmpixels-map">
-                                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=San%20Nigeria%2C%20S601%20Townsend%20Street%2C%20Lagos%2C%20USA&amp;amp;t=m&amp;amp;z=16&amp;amp;output=embed&amp;amp;iwloc=near&amp;output=embed"></iframe>
+                                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                                src="https://maps.google.com/maps?q=San%20Nigeria%2C%20S601%20Townsend%20Street%2C%20Lagos%2C%20USA&amp;amp;t=m&amp;amp;z=16&amp;amp;output=embed&amp;amp;iwloc=near&amp;output=embed"></iframe>
                                         </div>
                                     </div>
                                     <div class="block-title">
                                         <h3>How Can I <span>Help You?</span></h3>
                                     </div>
-                                    @if(session('success'))
-                                    <div class="alert alert-success">
-                                        {{ session('success') }}
-                                    </div>
+                                    @if (session('success'))
+                                        <div class="alert alert-success">
+                                            {{ session('success') }}
+                                        </div>
                                     @endif
-                                    <form id="" action="{{ route('contact.store') }}" method="POST" class="comment-form">
+                                    <form id="" action="{{ route('contact.store') }}" method="POST"
+                                        class="comment-form">
                                         @csrf
                                         <div class="messages"></div>
                                         <div class="controls two-columns">
                                             <div class="fields clearfix">
                                                 <div class="left-column">
                                                     <div class="form-group form-group-with-icon">
-                                                        <input id="" type="text" name="name" class="form-control" placeholder="" {{ old('name')}} required="required" data-error="Name is required.">
+                                                        <input id="" type="text" name="name" class="form-control"
+                                                            placeholder="" {{ old('name') }} required="required"
+                                                            data-error="Name is required.">
                                                         <label>Full Name</label>
                                                         <div class="form-control-border"></div>
                                                         <div class="help-block with-errors"></div>
                                                     </div>
 
                                                     <div class="form-group form-group-with-icon">
-                                                        <input id="" type="email" name="email" class="form-control" placeholder="" {{ old('email')}} required="required" data-error="Valid email is required.">
+                                                        <input id="" type="email" name="email" class="form-control"
+                                                            placeholder="" {{ old('email') }} required="required"
+                                                            data-error="Valid email is required.">
                                                         <label>Email Address</label>
                                                         <div class="form-control-border"></div>
                                                         <div class="help-block with-errors"></div>
                                                     </div>
 
                                                     <div class="form-group form-group-with-icon">
-                                                        <input id="" type="text" name="subject" class="form-control" placeholder="" {{ old('subject')}} required="required" data-error="Subject is required.">
+                                                        <input id="" type="text" name="subject" class="form-control"
+                                                            placeholder="" {{ old('subject') }} required="required"
+                                                            data-error="Subject is required.">
                                                         <label>Subject</label>
                                                         <div class="form-control-border"></div>
                                                         <div class="help-block with-errors"></div>
@@ -1129,7 +1200,9 @@
                                                 </div>
                                                 <div class="right-column">
                                                     <div class="form-group form-group-with-icon">
-                                                        <textarea id="" name="message" class="form-control" placeholder="" cols="30" {{old("message")}} rows="10" required="required" data-error="Please, leave me a message."></textarea>
+                                                        <textarea id="" name="message" class="form-control" placeholder="" cols="30" {{ old('message') }} rows="10"
+                                                            required="required"
+                                                            data-error="Please, leave me a message."></textarea>
                                                         <label>Message</label>
                                                         <div class="form-control-border"></div>
                                                         <div class="help-block with-errors"></div>
@@ -1152,23 +1225,26 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script data-cfasync="false" src="{{ asset("email-decode.min.js") }}"></script>
+    <script data-cfasync="false" src="{{ asset('email-decode.min.js') }}"></script>
     <script src="{{ asset('data/js/jquery-2.1.3.min.js') }}"></script>
-    <script src="{{asset('data/js/modernizr.custom.js')}}"></script>
-    <script src="{{asset('data/js/animating.js')}}"></script>
+    <script src="{{ asset('data/js/modernizr.custom.js') }}"></script>
+    <script src="{{ asset('data/js/animating.js') }}"></script>
 
-    <script src="{{asset('data/js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{ asset('data/js/imagesloaded.pkgd.min.js') }}"></script>
     <script src='{{ asset('../../../../../www.google.com/recaptcha/api.js') }}'></script>
 
-    <script src="{{asset('data/js/perfect-scrollbar.min.js')}}"></script>
-    <script src="{{asset('data/js/jquery.shuffle.min.js')}}"></script>
-    <script src="{{asset('data/js/masonry.pkgd.min.js')}}"></script>
-    <script src="{{asset('data/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('data/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('data/js/modernizr.custom.js')}}"></script>
-    <script src="{{asset('data/js/validator.js')}}"></script>
-    <script src="{{asset('data/js/main.js')}}"></script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e2c59259f807437","version":"2021.12.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}' crossorigin="anonymous"></script>
+    <script src="{{ asset('data/js/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ asset('data/js/jquery.shuffle.min.js') }}"></script>
+    <script src="{{ asset('data/js/masonry.pkgd.min.js') }}"></script>
+    <script src="{{ asset('data/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('data/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('data/js/modernizr.custom.js') }}"></script>
+    <script src="{{ asset('data/js/validator.js') }}"></script>
+    <script src="{{ asset('data/js/main.js') }}"></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon='{"rayId":"6e2c59259f807437","version":"2021.12.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}'
+        crossorigin="anonymous"></script>
 </body>
 
 <!-- Mirrored from lmpixels.com/demo/breezycv/darkfw/1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Feb 2022 23:07:31 GMT -->
